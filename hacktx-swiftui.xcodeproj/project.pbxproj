@@ -19,6 +19,7 @@
 		172338722AE4C29400ED6C63 /* CommunityTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172338712AE4C29400ED6C63 /* CommunityTab.swift */; };
 		172338742AE4CD5100ED6C63 /* CreateReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172338732AE4CD5100ED6C63 /* CreateReportView.swift */; };
 		172338772AE4CDD700ED6C63 /* Report.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172338762AE4CDD700ED6C63 /* Report.swift */; };
+		172338792AE5261A00ED6C63 /* RaiseConcernView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172338782AE5261A00ED6C63 /* RaiseConcernView.swift */; };
 		17B93AD22AE4A46F009116F1 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 17B93AD12AE4A46F009116F1 /* FirebaseAnalytics */; };
 		17B93AD42AE4A46F009116F1 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 17B93AD32AE4A46F009116F1 /* FirebaseAuth */; };
 		17B93AD62AE4A46F009116F1 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 17B93AD52AE4A46F009116F1 /* FirebaseFirestore */; };
@@ -61,6 +62,7 @@
 		172338712AE4C29400ED6C63 /* CommunityTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityTab.swift; sourceTree = "<group>"; };
 		172338732AE4CD5100ED6C63 /* CreateReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateReportView.swift; sourceTree = "<group>"; };
 		172338762AE4CDD700ED6C63 /* Report.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Report.swift; sourceTree = "<group>"; };
+		172338782AE5261A00ED6C63 /* RaiseConcernView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaiseConcernView.swift; sourceTree = "<group>"; };
 		17D416022AE4A36F000C5125 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		17D90F992AE4A26F00652E18 /* hacktx-swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hacktx-swiftui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		17D90F9C2AE4A26F00652E18 /* hacktx_swiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hacktx_swiftuiApp.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 			children = (
 				1723386D2AE4C28100ED6C63 /* PersonalTab.swift */,
 				172338732AE4CD5100ED6C63 /* CreateReportView.swift */,
+				172338782AE5261A00ED6C63 /* RaiseConcernView.swift */,
 			);
 			path = Personal;
 			sourceTree = "<group>";
@@ -360,6 +363,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				172338792AE5261A00ED6C63 /* RaiseConcernView.swift in Sources */,
 				172338612AE4B9E200ED6C63 /* User.swift in Sources */,
 				1723386E2AE4C28100ED6C63 /* PersonalTab.swift in Sources */,
 				1723386A2AE4C13E00ED6C63 /* LoginView.swift in Sources */,

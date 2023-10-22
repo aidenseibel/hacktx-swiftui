@@ -15,34 +15,55 @@ struct StatisticsTab: View {
     var body: some View {
         NavigationView {
             ScrollView{
-                VStack(alignment: .leading){
+                VStack(alignment: .leading, spacing: 20){
                     Text("Company Statistics")
-                    Text("<CompanyName>")
+                    Text("TxDOT")
                         .font(.title)
                         .bold()
                     
                     Text("Last 30 Days")
-                        .font(.title)
+                        .font(.title2)
                         .bold()
                     
-//                    Chart{
-//                        ForEach(last30Personal, id: \.id){ report in
-//                            LineMark(
-//                                x: .value("Date", report.date),
-//                                y: .value("Rating", report.rating),
-//                                series: .value("Company", "A")
-//                            )
-//                            .foregroundStyle(.blue)
-//                        }
-//                        ForEach(last30Company, id: \.id){ report in
-//                            LineMark(
-//                                x: .value("Date", report.date),
-//                                y: .value("Rating", report.rating),
-//                                series: .value("Company", "A")
-//                            )
-//                            .foregroundStyle(.red)
-//                        }
-//                    }
+                    Text("General Morale")
+                        .font(.title3)
+                        .bold()
+
+                    Image("linechart")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: UIScreen.main.bounds.width * 0.90, height: UIScreen.main.bounds.width * 0.50)
+                    
+                    
+                    Text("Good Things / Bad Things")
+                        .font(.title3)
+                        .bold()
+
+                    HStack{
+                        Image("piechart")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: UIScreen.main.bounds.width * 0.40, height: UIScreen.main.bounds.width * 0.50)
+                        Spacer()
+                        Image("piechart")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: UIScreen.main.bounds.width * 0.40, height: UIScreen.main.bounds.width * 0.50)
+                    }
+                    .padding(10)
+                    
+                    Group{
+                        Text("Concerns Raised")
+                            .font(.title3)
+                            .bold()
+                            .padding(.top)
+                        Image("barchart")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: UIScreen.main.bounds.width * 0.90, height: UIScreen.main.bounds.width * 0.60)
+
+                    }
+
                 }
                 .padding(20)
             }
