@@ -7,8 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1723385F2AE4B94100ED6C63 /* AuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1723385E2AE4B94100ED6C63 /* AuthModel.swift */; };
+		172338612AE4B9E200ED6C63 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172338602AE4B9E200ED6C63 /* User.swift */; };
+		172338632AE4B9FD00ED6C63 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172338622AE4B9FD00ED6C63 /* Company.swift */; };
+		172338652AE4BA9D00ED6C63 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172338642AE4BA9D00ED6C63 /* DataManager.swift */; };
+		172338682AE4C02F00ED6C63 /* ACarousel in Frameworks */ = {isa = PBXBuildFile; productRef = 172338672AE4C02F00ED6C63 /* ACarousel */; };
+		1723386A2AE4C13E00ED6C63 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172338692AE4C13E00ED6C63 /* LoginView.swift */; };
+		1723386C2AE4C14B00ED6C63 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1723386B2AE4C14B00ED6C63 /* SignupView.swift */; };
+		1723386E2AE4C28100ED6C63 /* PersonalTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1723386D2AE4C28100ED6C63 /* PersonalTab.swift */; };
+		172338702AE4C28900ED6C63 /* StatisticsTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1723386F2AE4C28900ED6C63 /* StatisticsTab.swift */; };
+		172338722AE4C29400ED6C63 /* CommunityTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172338712AE4C29400ED6C63 /* CommunityTab.swift */; };
+		172338742AE4CD5100ED6C63 /* CreateReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172338732AE4CD5100ED6C63 /* CreateReportView.swift */; };
+		172338772AE4CDD700ED6C63 /* Report.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172338762AE4CDD700ED6C63 /* Report.swift */; };
+		17B93AD22AE4A46F009116F1 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 17B93AD12AE4A46F009116F1 /* FirebaseAnalytics */; };
+		17B93AD42AE4A46F009116F1 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 17B93AD32AE4A46F009116F1 /* FirebaseAuth */; };
+		17B93AD62AE4A46F009116F1 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 17B93AD52AE4A46F009116F1 /* FirebaseFirestore */; };
+		17D416032AE4A36F000C5125 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 17D416022AE4A36F000C5125 /* GoogleService-Info.plist */; };
 		17D90F9D2AE4A26F00652E18 /* hacktx_swiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D90F9C2AE4A26F00652E18 /* hacktx_swiftuiApp.swift */; };
-		17D90F9F2AE4A26F00652E18 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D90F9E2AE4A26F00652E18 /* ContentView.swift */; };
+		17D90F9F2AE4A26F00652E18 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D90F9E2AE4A26F00652E18 /* OnBoardingView.swift */; };
 		17D90FA12AE4A27000652E18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17D90FA02AE4A27000652E18 /* Assets.xcassets */; };
 		17D90FA42AE4A27000652E18 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17D90FA32AE4A27000652E18 /* Preview Assets.xcassets */; };
 		17D90FAE2AE4A27000652E18 /* hacktx_swiftuiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D90FAD2AE4A27000652E18 /* hacktx_swiftuiTests.swift */; };
@@ -34,9 +50,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1723385E2AE4B94100ED6C63 /* AuthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthModel.swift; sourceTree = "<group>"; };
+		172338602AE4B9E200ED6C63 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		172338622AE4B9FD00ED6C63 /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		172338642AE4BA9D00ED6C63 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		172338692AE4C13E00ED6C63 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		1723386B2AE4C14B00ED6C63 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		1723386D2AE4C28100ED6C63 /* PersonalTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalTab.swift; sourceTree = "<group>"; };
+		1723386F2AE4C28900ED6C63 /* StatisticsTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsTab.swift; sourceTree = "<group>"; };
+		172338712AE4C29400ED6C63 /* CommunityTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityTab.swift; sourceTree = "<group>"; };
+		172338732AE4CD5100ED6C63 /* CreateReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateReportView.swift; sourceTree = "<group>"; };
+		172338762AE4CDD700ED6C63 /* Report.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Report.swift; sourceTree = "<group>"; };
+		17D416022AE4A36F000C5125 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		17D90F992AE4A26F00652E18 /* hacktx-swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hacktx-swiftui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		17D90F9C2AE4A26F00652E18 /* hacktx_swiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hacktx_swiftuiApp.swift; sourceTree = "<group>"; };
-		17D90F9E2AE4A26F00652E18 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		17D90F9E2AE4A26F00652E18 /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
 		17D90FA02AE4A27000652E18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17D90FA32AE4A27000652E18 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		17D90FA92AE4A27000652E18 /* hacktx-swiftuiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hacktx-swiftuiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +79,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				172338682AE4C02F00ED6C63 /* ACarousel in Frameworks */,
+				17B93AD22AE4A46F009116F1 /* FirebaseAnalytics in Frameworks */,
+				17B93AD42AE4A46F009116F1 /* FirebaseAuth in Frameworks */,
+				17B93AD62AE4A46F009116F1 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +103,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1723385D2AE4B93600ED6C63 /* Backend */ = {
+			isa = PBXGroup;
+			children = (
+				1723385E2AE4B94100ED6C63 /* AuthModel.swift */,
+				172338642AE4BA9D00ED6C63 /* DataManager.swift */,
+			);
+			path = Backend;
+			sourceTree = "<group>";
+		};
+		172338752AE4CD5500ED6C63 /* Personal */ = {
+			isa = PBXGroup;
+			children = (
+				1723386D2AE4C28100ED6C63 /* PersonalTab.swift */,
+				172338732AE4CD5100ED6C63 /* CreateReportView.swift */,
+			);
+			path = Personal;
+			sourceTree = "<group>";
+		};
+		17D415EE2AE4A302000C5125 /* Data Structures */ = {
+			isa = PBXGroup;
+			children = (
+				172338602AE4B9E200ED6C63 /* User.swift */,
+				172338762AE4CDD700ED6C63 /* Report.swift */,
+				172338622AE4B9FD00ED6C63 /* Company.swift */,
+			);
+			path = "Data Structures";
+			sourceTree = "<group>";
+		};
+		17D415F52AE4A302000C5125 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		17D416002AE4A338000C5125 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				172338752AE4CD5500ED6C63 /* Personal */,
+				172338712AE4C29400ED6C63 /* CommunityTab.swift */,
+				1723386F2AE4C28900ED6C63 /* StatisticsTab.swift */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		17D416012AE4A33C000C5125 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				17D90F9E2AE4A26F00652E18 /* OnBoardingView.swift */,
+				172338692AE4C13E00ED6C63 /* LoginView.swift */,
+				1723386B2AE4C14B00ED6C63 /* SignupView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
 		17D90F902AE4A26F00652E18 = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +181,13 @@
 		17D90F9B2AE4A26F00652E18 /* hacktx-swiftui */ = {
 			isa = PBXGroup;
 			children = (
+				17D416022AE4A36F000C5125 /* GoogleService-Info.plist */,
+				17D416002AE4A338000C5125 /* Tabs */,
+				17D416012AE4A33C000C5125 /* Onboarding */,
+				17D415F52AE4A302000C5125 /* Components */,
+				17D415EE2AE4A302000C5125 /* Data Structures */,
 				17D90F9C2AE4A26F00652E18 /* hacktx_swiftuiApp.swift */,
-				17D90F9E2AE4A26F00652E18 /* ContentView.swift */,
+				1723385D2AE4B93600ED6C63 /* Backend */,
 				17D90FA02AE4A27000652E18 /* Assets.xcassets */,
 				17D90FA22AE4A27000652E18 /* Preview Content */,
 			);
@@ -143,6 +235,12 @@
 			dependencies = (
 			);
 			name = "hacktx-swiftui";
+			packageProductDependencies = (
+				17B93AD12AE4A46F009116F1 /* FirebaseAnalytics */,
+				17B93AD32AE4A46F009116F1 /* FirebaseAuth */,
+				17B93AD52AE4A46F009116F1 /* FirebaseFirestore */,
+				172338672AE4C02F00ED6C63 /* ACarousel */,
+			);
 			productName = "hacktx-swiftui";
 			productReference = 17D90F992AE4A26F00652E18 /* hacktx-swiftui.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +313,10 @@
 				Base,
 			);
 			mainGroup = 17D90F902AE4A26F00652E18;
+			packageReferences = (
+				17B93AD02AE4A46F009116F1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				172338662AE4C02F00ED6C63 /* XCRemoteSwiftPackageReference "ACarousel" */,
+			);
 			productRefGroup = 17D90F9A2AE4A26F00652E18 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +335,7 @@
 			files = (
 				17D90FA42AE4A27000652E18 /* Preview Assets.xcassets in Resources */,
 				17D90FA12AE4A27000652E18 /* Assets.xcassets in Resources */,
+				17D416032AE4A36F000C5125 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +360,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17D90F9F2AE4A26F00652E18 /* ContentView.swift in Sources */,
+				172338612AE4B9E200ED6C63 /* User.swift in Sources */,
+				1723386E2AE4C28100ED6C63 /* PersonalTab.swift in Sources */,
+				1723386A2AE4C13E00ED6C63 /* LoginView.swift in Sources */,
+				172338722AE4C29400ED6C63 /* CommunityTab.swift in Sources */,
+				172338742AE4CD5100ED6C63 /* CreateReportView.swift in Sources */,
+				172338772AE4CDD700ED6C63 /* Report.swift in Sources */,
+				172338652AE4BA9D00ED6C63 /* DataManager.swift in Sources */,
+				17D90F9F2AE4A26F00652E18 /* OnBoardingView.swift in Sources */,
+				1723386C2AE4C14B00ED6C63 /* SignupView.swift in Sources */,
 				17D90F9D2AE4A26F00652E18 /* hacktx_swiftuiApp.swift in Sources */,
+				1723385F2AE4B94100ED6C63 /* AuthModel.swift in Sources */,
+				172338702AE4C28900ED6C63 /* StatisticsTab.swift in Sources */,
+				172338632AE4B9FD00ED6C63 /* Company.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +533,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"hacktx-swiftui/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CrewNotes;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -447,6 +562,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"hacktx-swiftui/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CrewNotes;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -577,6 +693,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		172338662AE4C02F00ED6C63 /* XCRemoteSwiftPackageReference "ACarousel" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JWAutumn/ACarousel";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
+		17B93AD02AE4A46F009116F1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		172338672AE4C02F00ED6C63 /* ACarousel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 172338662AE4C02F00ED6C63 /* XCRemoteSwiftPackageReference "ACarousel" */;
+			productName = ACarousel;
+		};
+		17B93AD12AE4A46F009116F1 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 17B93AD02AE4A46F009116F1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		17B93AD32AE4A46F009116F1 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 17B93AD02AE4A46F009116F1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		17B93AD52AE4A46F009116F1 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 17B93AD02AE4A46F009116F1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 17D90F912AE4A26F00652E18 /* Project object */;
 }
