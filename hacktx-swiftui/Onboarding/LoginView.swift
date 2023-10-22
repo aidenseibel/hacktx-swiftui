@@ -21,6 +21,8 @@ struct LoginView: View {
                 .font(.title)
                 .bold()
                 .foregroundColor(.white)
+            Text("Swipe right to sign up")
+                .foregroundColor(.white)
             
             VStack{
                 TextField("email", text: $email)

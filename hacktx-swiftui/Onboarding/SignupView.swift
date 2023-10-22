@@ -24,6 +24,9 @@ struct SignupView: View {
                 .font(.title)
                 .bold()
                 .foregroundColor(.white)
+            Text("Swipe left to log in")
+                .foregroundColor(.white)
+
             
             VStack(alignment: .leading, spacing: 10){
                 TextField("email", text: $email)

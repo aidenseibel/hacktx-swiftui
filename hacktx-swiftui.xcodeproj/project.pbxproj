@@ -16,10 +16,10 @@
 		1723386C2AE4C14B00ED6C63 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1723386B2AE4C14B00ED6C63 /* SignupView.swift */; };
 		1723386E2AE4C28100ED6C63 /* PersonalTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1723386D2AE4C28100ED6C63 /* PersonalTab.swift */; };
 		172338702AE4C28900ED6C63 /* StatisticsTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1723386F2AE4C28900ED6C63 /* StatisticsTab.swift */; };
-		172338722AE4C29400ED6C63 /* CommunityTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172338712AE4C29400ED6C63 /* CommunityTab.swift */; };
 		172338742AE4CD5100ED6C63 /* CreateReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172338732AE4CD5100ED6C63 /* CreateReportView.swift */; };
 		172338772AE4CDD700ED6C63 /* Report.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172338762AE4CDD700ED6C63 /* Report.swift */; };
 		172338792AE5261A00ED6C63 /* RaiseConcernView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172338782AE5261A00ED6C63 /* RaiseConcernView.swift */; };
+		1723387B2AE53EE500ED6C63 /* AllReportsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1723387A2AE53EE500ED6C63 /* AllReportsView.swift */; };
 		17B93AD22AE4A46F009116F1 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 17B93AD12AE4A46F009116F1 /* FirebaseAnalytics */; };
 		17B93AD42AE4A46F009116F1 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 17B93AD32AE4A46F009116F1 /* FirebaseAuth */; };
 		17B93AD62AE4A46F009116F1 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 17B93AD52AE4A46F009116F1 /* FirebaseFirestore */; };
@@ -59,10 +59,10 @@
 		1723386B2AE4C14B00ED6C63 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
 		1723386D2AE4C28100ED6C63 /* PersonalTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalTab.swift; sourceTree = "<group>"; };
 		1723386F2AE4C28900ED6C63 /* StatisticsTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsTab.swift; sourceTree = "<group>"; };
-		172338712AE4C29400ED6C63 /* CommunityTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityTab.swift; sourceTree = "<group>"; };
 		172338732AE4CD5100ED6C63 /* CreateReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateReportView.swift; sourceTree = "<group>"; };
 		172338762AE4CDD700ED6C63 /* Report.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Report.swift; sourceTree = "<group>"; };
 		172338782AE5261A00ED6C63 /* RaiseConcernView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaiseConcernView.swift; sourceTree = "<group>"; };
+		1723387A2AE53EE500ED6C63 /* AllReportsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllReportsView.swift; sourceTree = "<group>"; };
 		17D416022AE4A36F000C5125 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		17D90F992AE4A26F00652E18 /* hacktx-swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hacktx-swiftui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		17D90F9C2AE4A26F00652E18 /* hacktx_swiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hacktx_swiftuiApp.swift; sourceTree = "<group>"; };
@@ -118,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				1723386D2AE4C28100ED6C63 /* PersonalTab.swift */,
+				1723387A2AE53EE500ED6C63 /* AllReportsView.swift */,
 				172338732AE4CD5100ED6C63 /* CreateReportView.swift */,
 				172338782AE5261A00ED6C63 /* RaiseConcernView.swift */,
 			);
@@ -145,7 +146,6 @@
 			isa = PBXGroup;
 			children = (
 				172338752AE4CD5500ED6C63 /* Personal */,
-				172338712AE4C29400ED6C63 /* CommunityTab.swift */,
 				1723386F2AE4C28900ED6C63 /* StatisticsTab.swift */,
 			);
 			path = Tabs;
@@ -365,9 +365,9 @@
 			files = (
 				172338792AE5261A00ED6C63 /* RaiseConcernView.swift in Sources */,
 				172338612AE4B9E200ED6C63 /* User.swift in Sources */,
+				1723387B2AE53EE500ED6C63 /* AllReportsView.swift in Sources */,
 				1723386E2AE4C28100ED6C63 /* PersonalTab.swift in Sources */,
 				1723386A2AE4C13E00ED6C63 /* LoginView.swift in Sources */,
-				172338722AE4C29400ED6C63 /* CommunityTab.swift in Sources */,
 				172338742AE4CD5100ED6C63 /* CreateReportView.swift in Sources */,
 				172338772AE4CDD700ED6C63 /* Report.swift in Sources */,
 				172338652AE4BA9D00ED6C63 /* DataManager.swift in Sources */,
@@ -463,7 +463,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -517,7 +517,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -535,6 +535,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"hacktx-swiftui/Preview Content\"";
+				DEVELOPMENT_TEAM = C72D493DTH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = CrewNotes;
@@ -543,6 +544,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -564,6 +566,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"hacktx-swiftui/Preview Content\"";
+				DEVELOPMENT_TEAM = C72D493DTH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = CrewNotes;
@@ -572,6 +575,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

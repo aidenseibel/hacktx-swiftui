@@ -16,4 +16,12 @@ class AuthModel: ObservableObject{
     @Published var currentUserBio: String = ""
     @Published var currentUserCompanyID: Int = 1111
 
+    func resetToDefaults(){
+        currentUserUserID = ""
+        currentUserEmail = ""
+        currentUserUsername = ""
+        currentUserBio = ""
+        currentUserCompanyID = 1111
+        isLoggedIn = false
+    }
 }
